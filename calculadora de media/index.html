@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css"></link>
+    <link rel="stylesheet" href="css/titles.css"></link>
+    <link rel="stylesheet" href="css/inputs.css"></link>
+    <link rel="stylesheet" href="css/box-result.css"></link>
+    <script rel="script" src="js/script.js"></script>
+    <title>Calculadora de Média</title>
+</head>
+<body>
+    <div class="container">
+      <h1 class="page-title">
+      Calculadora de média</h1>
+      <p class="page-subtitle">
+      Descubra qual a sua média de nota de todas as provas!
+      </p>
+      
+      <label for="form" class="label"
+      >Digite suas notas em cada bimestre.</label
+    >
+    <div class="inputs">
+      <input type="number" class="input" placeholder="1° bimestre" id="b1" />
+      <input type="number" class="input" placeholder="2° bimestre" id="b2" />
+      <input type="number" class="input" placeholder="3° bimestre" id="b3" />
+      <input type="number" class="input" placeholder="4° bimestre" id="b4" />
+    </div>
+    <button class="button" type="submit" onclick="calcularMedia()">
+      Calcular média
+    </button>
+    <div class="calculator">
+      <div class="text">
+        <p class="description">Veja sua nota:</p>
+        <p class="nota" id="nota"></p>
+        <p class="status" id="status"></p>
+      </div>
+    </div>
+    </div>
+    
+      </div>
+    </div>
+  </body>
+</html>
