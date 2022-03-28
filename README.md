@@ -23,5 +23,5 @@ Conventions adopted in the work environment for the Login Page project:
 
 ### LIBRARIES
 
-No libraries were used in the project, just pure HTML, CSS and JavaScript.
+No libraries were used in the project, just pure and basic HTML, CSS and JavaScript.
 
